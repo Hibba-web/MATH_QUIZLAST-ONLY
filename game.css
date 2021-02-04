@@ -1,0 +1,17 @@
+#body_bg {
+    background-image: url("bg.png");
+    background-position: fixed;
+    background-size: 100%;
+}
+
+#login {
+    margin-top: 50px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+#login_btn {
+    width:10%;
+}
+

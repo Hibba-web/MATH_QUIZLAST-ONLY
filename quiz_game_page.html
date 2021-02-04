@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="quiz_game.css">
+</head>
+<body id="bodyBG">
+
+	<h2 style="color: white;" id="player1_name&score"></h2>
+	<h2 style="color: white;" id="player2_name&score"></h2>
+<div class="container">
+    <center>
+		<h1 style="color: white; font-size: 50px;">Math Quiz!</h1>
+<h4 style="color: white;" id="player_question&player"></h4>
+<h4 style="color: white;" id="player_answer&player"></h4>
+
+		<div>
+			<div>
+				<h3>Number1</h3>
+				<input style="width:30%;" id="input_no1" placeholder="Number 1">
+			</div>
+			<br>
+			<br>
+			<br>
+			<div>
+				<h3>Number2</h3>
+				<input  style="width:30%;" id="input_no2" placeholder="Number 2">
+			</div>
+		</div>
+
+
+		<br>
+		<button id="Send_btn" class="btn btn-info" style="height: 50px; width:75%; font-size: 20px;" onclick="send()">Create Question</button>
+
+		<div>
+			<div id="output" class="col-lg-6 "></div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		</div>
+	</center>
+</div>
+<script src="quiz_game_page.js"></script>
+</body>
+</html>	
